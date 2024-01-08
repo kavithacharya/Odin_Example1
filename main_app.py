@@ -6,7 +6,7 @@ import pandas as pd
 
 # Import the individual Python files
 import home
-import data
+# import data
 import plots
 import predict
 
@@ -65,7 +65,7 @@ final_cars_df = load_data()
 # Create a dictionary.
 pages_dict = {
                 "Home": home,
-                "View Data": data, 
+                # "View Data": data, 
                 "Visualise Data": plots, 
                 "Predict": predict
             }
